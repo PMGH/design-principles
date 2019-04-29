@@ -7,9 +7,9 @@
 - Dependency Inversion
 
 
-Sandi Metz:
-https://www.youtube.com/watch?v=8STtzjyDTTQ 
+**Sandi Metz:** https://www.youtube.com/watch?v=8STtzjyDTTQ 
 
+---
 
 ## 1. Single Responsibility (SRP)
 
@@ -35,7 +35,7 @@ end
 
 Any place you use a Fooish you should be able to substitute in a Foo.
 
-If you need to check is_kind_of?(Foo) then you’ve failed.
+If you need to check is_kind_of?(Foo) then you’ve failed - liskov code smell.
 
 Note: mostly won’t use this in Ruby as you normally inherit from a Rails superclass instead of your own superclass.
 
@@ -50,3 +50,20 @@ Note: mostly won’t use this in Ruby as you normally inherit from a Rails super
 In a statically-typed language (e.g. Java) you need to create interfaces to deal with instances of another class.
 
 This principle is not a concern in a dynamically-typed language (e.g. Ruby) as you depend on the signature of the method you are calling when interacting with another class. Dynamically typed languages already obey this principle in the most extreme way possible.
+
+---
+
+In other words (Steve Freeman & Nat Pryce):
+
+- loosely coupled (inject dependencies)
+- highly cohesive (class about one thing only i.e Single Repsponsibility)
+- easily composable
+- context independent (new behaviour from existing classes)
+
+---
+
+Design is all about dependencies.
+
+- If you refer to something then you depend on it.
+- When your dependencies change you must change. Rigid, fragile, immobile and viscous code.
+- If you are entangled with another object and it changes then you have to change.
