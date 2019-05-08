@@ -2,13 +2,6 @@
 
 Aim: save development time by making your code robust and easier to test, maintain and extend.
 
-**Resources:**
-
-- DRY: https://dzone.com/articles/software-design-principles-dry-and-kiss
-- KISS: https://dzone.com/articles/software-design-principles-dry-and-kiss
-- SOLID: https://www.youtube.com/watch?v=8STtzjyDTTQ
-- YAGNI: https://deviq.com/yagni/
-
 ---
 
 ## Table of Contents
@@ -131,3 +124,14 @@ https://deviq.com/yagni/
 > “Always implement things when you actually need them, never when you just foresee that you may need them.”
 
 A key principle of extreme programming. Wait for the customer to actually ask for it before implementing it.
+
+---
+
+**Resources:**
+
+- DRY: https://dzone.com/articles/software-design-principles-dry-and-kiss
+- KISS: https://dzone.com/articles/software-design-principles-dry-and-kiss
+- SOLID: https://www.youtube.com/watch?v=8STtzjyDTTQ
+- YAGNI: https://deviq.com/yagni/
+
+---
