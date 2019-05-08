@@ -46,13 +46,13 @@ https://dzone.com/articles/software-design-principles-dry-and-kiss
 
 ### SOLID
 
-##### SOLID Principles
-
-- Single Responsibility
-- Open / Closed
-- Liskov Substitution
-- Interface Segregation
-- Dependency Inversion
+```
+Single Responsibility
+Open / Closed
+Liskov Substitution
+Interface Segregation
+Dependency Inversion
+```
 
 **Sandi Metz:** https://www.youtube.com/watch?v=8STtzjyDTTQ 
 
