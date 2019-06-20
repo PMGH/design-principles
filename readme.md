@@ -16,6 +16,7 @@ Contents
   - [4. Interface Segregation](#4-interface-segregation)
   - [5. Dependency Inversion](#5-dependency-inversion)
 - [YAGNI](#yagni)
+- [Multitier Architecture](#multitier-architecture)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -33,8 +34,6 @@ Achieved by splitting the system up into small pieces. E.g. Classes and reusable
 
 Less code is good: It saves time and effort, is easy to maintain, and also reduces the chances of bugs.
 
-[Contents](#Table-of-Contents)
-
 ---
 
 ## KISS
@@ -44,8 +43,6 @@ Less code is good: It saves time and effort, is easy to maintain, and also reduc
 https://dzone.com/articles/software-design-principles-dry-and-kiss
 
 > Keep the code simple and clear, making it easy to understand. Small methods (no more than 40-50 lines) that are responsible for solving one thing.
-
-[Contents](#Table-of-Contents)
 
 ---
 
@@ -101,8 +98,6 @@ In a statically-typed language (e.g. Java) you need to create interfaces to deal
 
 This principle is not a concern in a dynamically-typed language (e.g. Ruby) as you depend on the signature of the method you are calling when interacting with another class. Dynamically typed languages already obey this principle in the most extreme way possible.
 
-[Contents](#Table-of-Contents)
-
 ---
 
 **In other words (Steve Freeman & Nat Pryce):**
@@ -126,8 +121,6 @@ This principle is not a concern in a dynamically-typed language (e.g. Ruby) as y
 - Does everything in it change at the same rate?
 - Does it depend on things that change less often than it does?
 
-[Contents](#Table-of-Contents)
-
 ---
 
 ## YAGNI
@@ -141,7 +134,9 @@ https://deviq.com/yagni/
 
 A key principle of extreme programming. Wait for the customer to actually ask for it before implementing it.
 
-[Contents](#Table-of-Contents)
+---
+
+## Multitier Architecture
 
 ---
 
@@ -151,7 +146,5 @@ A key principle of extreme programming. Wait for the customer to actually ask fo
 - KISS: https://dzone.com/articles/software-design-principles-dry-and-kiss
 - SOLID: https://www.youtube.com/watch?v=8STtzjyDTTQ
 - YAGNI: https://deviq.com/yagni/
-
-[Contents](#Table-of-Contents)
 
 ---
