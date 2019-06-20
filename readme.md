@@ -140,9 +140,7 @@ A key principle of extreme programming. Wait for the customer to actually ask fo
 
 https://en.wikipedia.org/wiki/Multitier_architecture
 
-[Open Systems Interconnection Model (OSI)](https://searchnetworking.techtarget.com/definition/OSI)
-
-Model Layers:
+**[Open Systems Interconnection Model (OSI)](https://searchnetworking.techtarget.com/definition/OSI)** Model Layers:
 
 | Layer | Name         | Description                            |
 |-------|--------------|----------------------------------------|
@@ -162,5 +160,7 @@ Model Layers:
 - KISS: https://dzone.com/articles/software-design-principles-dry-and-kiss
 - SOLID: https://www.youtube.com/watch?v=8STtzjyDTTQ
 - YAGNI: https://deviq.com/yagni/
+- Multitier architecture: https://en.wikipedia.org/wiki/Multitier_architecture
+- OSI: https://searchnetworking.techtarget.com/definition/OSI
 
 ---
