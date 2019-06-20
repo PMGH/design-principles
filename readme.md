@@ -138,6 +138,22 @@ A key principle of extreme programming. Wait for the customer to actually ask fo
 
 ## Multitier Architecture
 
+https://en.wikipedia.org/wiki/Multitier_architecture
+
+[Open Systems Interconnection Model (OSI)](https://searchnetworking.techtarget.com/definition/OSI)
+
+Model Layers:
+
+| Layer | Name         | Description                            |
+|-------|--------------|----------------------------------------|
+| 7     | Application  | Network process to application         |
+| 6     | Presentation | Data representation and encryption     |
+| 5     | Session      | Interhost communication                |
+| 4     | Transport    | End-to-end connections and reliability |
+| 3     | Network      | Path determination and IP              |
+| 2     | Data Link    | MAC and LLC (Physical addressing)      |
+| 1     | Physical     | Media, signal and binary transmission  |
+
 ---
 
 **Resources:**
