@@ -4,12 +4,20 @@ Aim: save development time by making your code robust and easier to test, mainta
 
 ---
 
-## Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+Contents
 
-- [Don't Repeat Yourself (DRY)](#dry)
-- [Keep It Simple, Stupid (KISS)](#kiss)
+- [KISS](#kiss)
 - [SOLID](#solid)
-- [You Ain't Gonna Need It (YAGNI)](#yagni)
+  - [1. Single Responsibility (SRP)](#1-single-responsibility-srp)
+  - [2. Open / Closed](#2-open--closed)
+  - [3. Liskov Substitution](#3-liskov-substitution)
+  - [4. Interface Segregation](#4-interface-segregation)
+  - [5. Dependency Inversion](#5-dependency-inversion)
+- [YAGNI](#yagni)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
 
